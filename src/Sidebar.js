@@ -1,6 +1,6 @@
-import { Button } from "@material-ui/core";
+import { Button, IconButton } from "@material-ui/core";
 import "./Sidebar.css";
-import { Add, ExpandMore, Inbox, Info, LabelImportant, SendOutlined, Star } from "@material-ui/icons";
+import { Add, Duo, ExpandMore, Inbox, Info, LabelImportant, Person, Phone, SendOutlined, Star } from "@material-ui/icons";
 import SidebarOption from "./SidebarOption";
 
 const Sidebar = () => {
@@ -13,6 +13,22 @@ const Sidebar = () => {
             <SidebarOption Icon={Info} title="Spam" number={54} />
             <SidebarOption Icon={LabelImportant} title="Important" number={54} />
             <SidebarOption Icon={ExpandMore} title="More" number="" />
+
+            <div className="sidebar__footer">
+                <div className="sidebar__footerIcons">
+                    <IconButton>
+                        <Person />
+                    </IconButton>
+
+                    <IconButton>
+                        <Duo />
+                    </IconButton>
+
+                    <IconButton>
+                        <Phone />
+                    </IconButton>
+                </div>
+            </div>
         </div>
     );
 }
