@@ -22,3 +22,8 @@
     border-bottom: 1px solid whitesmoke;
     background-color: white;
 }
+
+
+.emailList__list{
+    padding-bottom: 20%;
+}
