@@ -1,6 +1,6 @@
 # <div align="center"> Email Clone </div>
 
-<div align="center"> <img src="https://freelogopng.com/images/all_img/1682570982gmail-name-logo.png" width="120"/> </div>
+<div align="center"> <img src="https://freelogopng.com/images/all_img/1682570982gmail-name-logo.png" width="320"/> </div>
 
 <br><br>
 ## Things are I used to build this Clone 👇
